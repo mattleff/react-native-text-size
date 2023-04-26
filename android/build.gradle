@@ -15,6 +15,7 @@ def _minSdkVersion      = safeExtGet('minSdkVersion', 16)
 
 buildscript {
     repositories {
+        mavenCentral()
         google()
     }
     dependencies {
